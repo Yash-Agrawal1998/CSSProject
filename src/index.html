@@ -538,18 +538,11 @@
     40px; }
 
     <!--Task 22:Use Clockwise Notation to give the element with the blue-box class a margin of 40px on its top and left side, but only 20px on its bottom and right side.-->
-    .blue-box {
-      background-color: blue;
-      color: #fff;
-      margin:40px 20px 20px 40px;
+    .blue-box { background-color: blue; color: #fff; margin:40px 20px 20px 40px;
     }
 
     <!--Task 23:Using the type attribute selector, try to give the checkboxes in CatPhotoApp a top margin of 10px and a bottom margin of 15px.-->
-    [type="checkbox"]
-  {
-    margin-top:10px;
-    margin-bottom:15px;
-  }
+    [type="checkbox"] { margin-top:10px; margin-bottom:15px; }
 
     <!--Task 24:Add a padding property to the element with class red-box and set it to 1.5em.-->
     <style>
@@ -557,32 +550,32 @@
         margin-bottom: -25px;
         text-align: center;
       }
-    
+
       .box {
         border-style: solid;
         border-color: black;
         border-width: 5px;
         text-align: center;
       }
-    
+
       .yellow-box {
         background-color: yellow;
         padding: 20px 40px 20px 40px;
       }
-    
+
       .red-box {
         background-color: red;
         margin: 20px 40px 20px 40px;
-        padding:1.5em;
+        padding: 1.5em;
       }
-    
+
       .green-box {
         background-color: green;
         margin: 20px 40px 20px 40px;
       }
     </style>
     <h5 class="injected-text">margin</h5>
-    
+
     <div class="box yellow-box">
       <h5 class="box red-box">padding</h5>
       <h5 class="box green-box">padding</h5>
@@ -590,10 +583,19 @@
 
     <!--Task 25:We can prove that the body element exists here by giving it a background-color of black.-->
     <style>
-      body 
-      {
-        background-color:black;
+      body {
+        background-color: black;
       }
-      </style>
+    </style>
+
+    <!--Task 26:First, create a h1 element with the text Hello World,Then, let's give all elements on your page the color of green by adding color: green; to your body element's style declaration.Finally, give your body element the font-family of monospace by adding font-family: monospace; to your body element's style declaration.-->
+    <style>
+      body {
+        background-color: black;
+        font-family: monospace;
+        color: green;
+      }
+    </style>
+    <h1>Hello World</h1>
   </body>
 </html>
