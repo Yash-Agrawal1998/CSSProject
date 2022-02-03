@@ -1141,5 +1141,22 @@ Sienna	rgb(160, 82, 45)-->
   width: 300px;
   height: 300px;
 }
+
+<!--Task 44:In the :root selector of the media query, change it so --penguin-size is redefined and given a value of 200px. Also, redefine --penguin-skin and give it a value of black. Then resize the preview to see this change in action.-->
+:root {
+  --penguin-size: 300px;
+  --penguin-skin: gray;
+  --penguin-belly: white;
+  --penguin-beak: orange;
+}
+
+@media (max-width: 350px) {
+  :root {
+    /* Only change code below this line */
+--penguin-size:200px;
+--penguin-skin:black;
+    /* Only change code above this line */
+  }
+}
   </body>
 </html>
