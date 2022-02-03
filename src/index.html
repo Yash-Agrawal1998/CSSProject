@@ -1077,5 +1077,33 @@ Sienna	rgb(160, 82, 45)-->
     transform: rotate(-45deg);
     z-index: -1;
   }
+</style>
+
+<!--Task 40:It looks like there is a problem with the variables supplied to the .penguin-top and .penguin-bottom classes. Rather than fix the typo, add a fallback value of black to the background property of the .penguin-top and .penguin-bottom classes.-->
+.penguin-top {
+  top: 10%;
+  left: 25%;
+
+  /* Change code below this line */
+  background: var(--pengiun-skin,black);
+  /* Change code above this line */
+
+  width: 50%;
+  height: 45%;
+  border-radius: 70% 70% 60% 60%;
+}
+
+.penguin-bottom {
+  top: 40%;
+  left: 23.5%;
+
+  /* Change code below this line */
+  background: var(--pengiun-skin,black);
+  /* Change code above this line */
+
+  width: 53%;
+  height: 45%;
+  border-radius: 70% 70% 100% 100%;
+}
   </body>
 </html>
